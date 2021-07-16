@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/khanguyen2411/blogNodeJS.git"
+    "url": "git+https://github.com/khanguyen2411/BlogNodejs.git"
   },
   "keywords": [
     "nodejs"
@@ -18,16 +18,16 @@
   "author": "morata kamehameha",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/khanguyen2411/blogNodeJS/issues"
+    "url": "https://github.com/khanguyen2411/BlogNodejs/issues"
   },
-  "homepage": "https://github.com/khanguyen2411/blogNodeJS#readme",
+  "homepage": "https://github.com/khanguyen2411/BlogNodejs/blob/main/README.md",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^5.3.2"
   },
   "devDependencies": {
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.9",
-    "node-sass": "^6.0.1"
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.9"
   }
 }
