@@ -7,7 +7,7 @@
     "start": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "node-sass src/resources/scss/app.scss src/public/css/app.css",
-    "beautiful": "lint-staged"
+    "beautiful": "prettier --single-quote --trailing-comma all --tab-width 4 --write 'src/**/*.{js, json, scss}'"
   },
   "lint-staged":{
     "src/**/*.{js, json, scss}": "prettier --single-quote --trailing-comma all --tab-width 4 --write"
