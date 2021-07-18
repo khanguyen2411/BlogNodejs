@@ -6,6 +6,7 @@ const path = require('path');
 const app = express();
 const port = 3000;
 const route = require('./routes');
+const db = require('./config/db');
 
 init();
 
@@ -39,5 +40,7 @@ function init() {
     app.set('view engine', 'hbs');
 
     //set views folder to express-handlbars
-    app.set('views', path.join(__dirname, 'resources\\views'));
+    app.set('views', path.join(__dirname, 'resources', 'views'));
+
+    db.connect();
 }
